@@ -1,0 +1,137 @@
+body {
+  background-image: url(images/background.jpg);
+}
+
+.weather-holder {
+  width: 200px;
+  height: inherit;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Arial", sans-serif;
+}
+
+.weather-option-holder {
+  height: 25px;
+  width: 80%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
+.weather-option-holder div {
+  width: 100px;
+  height: 20px;
+  border: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  font-family: "Arial";
+  font-size: 10pt;
+  text-align: center;
+}
+
+.weather-option-holder div:hover {
+  border-bottom: 3px solid orange !important;
+}
+
+.time-select-on {
+  border-bottom: 3px solid yellow !important;
+}
+
+#city {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#weather-request-form input[type=button] {
+  min-width: 100px;
+  height: 30px;
+  border: none;
+  background-color: red;
+}
+
+#weather-request-form input[type=button]:hover {
+  border-bottom: 3px solid orange !important;
+}
+
+#weather-announcer {
+  height: 300px;
+  width: 40%;
+  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-right: 10px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#weather-wrapper {
+  text-align: center;
+  height: 300px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  white-space: nowrap;
+  border: 1px solid black;
+}
+
+.weather-title {
+  position: relative;
+  top: 10px;
+}
+
+.weather-icon {
+  position: relative;
+  top: 30px;
+}
+
+.weather-max-min-temp {
+  position: relative;
+  top: 30px;
+}
+
+.weather-temp {
+  position: relative;
+  top: 30px;
+  font-size: 2.5em;
+}
+
+.weather-temp sup {
+  font-size: calc(1em * 0.4);
+  font-weight: bold;
+}
+
+.weather-extra-info {
+  color: rgb(170, 170, 170);
+  font-size: calc(1em * 0.7);
+  position: relative;
+  top: 60px;
+}
+
+#city {
+  width: 80%;
+}
+
+#current-weather-announcer {
+  width: 30%;
+  height: 300px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
