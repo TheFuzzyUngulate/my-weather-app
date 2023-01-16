@@ -1,5 +1,5 @@
 const my_key = "28e9a039f7ce402796f31959220106";
-const base_url = "http://api.weatherapi.com/v1/";
+const base_url = "https://api.weatherapi.com/v1/";
 const weather_form = document.getElementById('weather-request-form');
 const weather_form_date = weather_form.querySelectorAll("div.weather-option-button");
 const weather_form_city = weather_form.querySelector("#city");
